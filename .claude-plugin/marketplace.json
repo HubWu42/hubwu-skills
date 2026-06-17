@@ -11,7 +11,7 @@
   "plugins": [
     {
       "name": "hubwu-skills",
-      "description": "HubWu 的实用 skill 合集，陆续开源。首发：zhuque-detect（腾讯朱雀 AI 检测，连真实 Chrome 出官方报告单 PDF）。",
+      "description": "HubWu 持续开源收录的实用 Agent Skills 合集。当前包含 zhuque-detect（腾讯朱雀 AI 检测 → 官方报告单 PDF），后续陆续新增。",
       "source": "./",
       "strict": false,
       "skills": [

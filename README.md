@@ -24,11 +24,14 @@ Claude Code · OpenAI Codex · Gemini CLI · Cursor · Copilot · OpenCode · Go
 - 🪶 **渐进披露**：平时只占 `name`+`description`，匹配任务才载入完整指令
 - 📦 **自包含**：带 `scripts/` 的 skill 也能脱离 agent 直接命令行跑
 
-## 现有 skills
+## 收录的 skills（持续新增）
+
+> 这是一个**持续更新的合集** —— 下面只是当前已收录的，后续会陆续加入更多。
 
 | skill | 作用 | 前置 |
 |-------|------|------|
 | [**zhuque-detect**](skills/zhuque-detect/) | 腾讯朱雀 AI 文本检测：连真实 Chrome → 检测 → 导出官方「AI 生成检测报告单」PDF（含环形图、AI 分布图、片段解析表、逐段 AIGC 值） | 本机 Chrome + Node 18+ |
+| _更多 skill_ | 陆续开源中… | — |
 
 ## 安装
 
