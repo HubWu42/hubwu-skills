@@ -1,0 +1,18 @@
+# ── 凭证 / 会话令牌 —— 绝不提交 ──
+**/.auth/
+*zhuque-state.json
+*.storageState.json
+*.pem
+.env
+.env.*
+
+# ── 运行产物 ──
+**/reports/
+*.pdf
+*-source.html
+out/
+
+# ── 依赖 / 系统 ──
+node_modules/
+.DS_Store
+*.log

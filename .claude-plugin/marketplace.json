@@ -1,0 +1,22 @@
+{
+  "name": "hubwu-skills",
+  "owner": {
+    "name": "HubWu",
+    "email": "HubWu42@users.noreply.github.com"
+  },
+  "metadata": {
+    "description": "HubWu 精选开源 Agent Skills —— 遵循 agentskills.io 开放标准，跨 agent 通用（Claude Code / Codex / Gemini CLI / Cursor 等）",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "hubwu-skills",
+      "description": "HubWu 的实用 skill 合集，陆续开源。首发：zhuque-detect（腾讯朱雀 AI 检测，连真实 Chrome 出官方报告单 PDF）。",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/zhuque-detect"
+      ]
+    }
+  ]
+}

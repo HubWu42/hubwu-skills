@@ -1,0 +1,12 @@
+{
+  "name": "zhuque-detect",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "腾讯朱雀 AI 检测自动化：连真实 Chrome → 检测 → 导出官方检测报告单 PDF",
+  "bin": { "zhuque-detect": "./run.mjs" },
+  "scripts": { "start": "node run.mjs" },
+  "dependencies": {
+    "playwright-core": "^1.48.0"
+  }
+}
